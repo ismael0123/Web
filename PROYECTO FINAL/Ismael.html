@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- o atributo ten que ver coa compatibilidade do navegador onde se consulta a páxina web (http-equiv=”X-UA-Compatible”), e onde no atributo content, o valor ie=edge fai referencia ao antigo navegador Internet Explorer-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- A metaetiqueta da ventana gráfica indica que o sitio web seguirá o ancho do dispositivo no que estea o usuario, xa sexa un móbil ou o escritorio-->
+		
+		<link rel="stylesheet" href="Ismael.css" />
+		<link rel="stylesheet" href="Efecto nav.css" /> 
+		<link rel="stylesheet" href="Redes sociales.css" /> 
+		<link rel="stylesheet" href="Button.css" /> 
+		<link rel="stylesheet" media="screen and (max-width:768px)" href="mobile.css" /> <!-- Cando a ventana e menor a 768px toma a referencia de esta stylesheet, así customizamos para o móvil se queremos cambiar o layout-->
+		
+		
+		<title>Portfolio Ismael | Benvidos</title>
+	</head>
+	<body> 
+			<nav id="navbar">
+				<div class="container">
+					<a href="#mainheader" class="logo"><img src="img/logo isma.png" alt="Logotipo de Ismael"/></a>
+					<ul class="nav">
+						<li> <a href="#projects">Proxectos</a> </li>
+						<li> <a href="#about">Acerca de min</a> </li>
+						<li> <a href="#contact">Contacto</a> </li>
+					</ul>
+				</div>
+			</nav>
+		
+
+		<div id="showcase">
+			<div class="change">
+				<div class="center">
+				  <button class="button"> 
+					<a href="#projects">
+					<svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+					  <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+					  <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+					</svg>
+					<span> PROXECTOS </span></a>
+				  </button>
+				</div>
+			</div>
+		</div>
+	<section id="projects">
+			<div class="container">
+				<h2>Proxectos na escola</h2> 
+				<div class="projects-row">
+					<div class="projects-row-detail-1">
+						<a href="https://www.youtube.com/watch?v=UvSdi33_7m4&t=1s"> <img src="img/medalla.png" alt=" Tutorial medalla" /> </a> <!--Introducimos un enlace a un vídeo pinchando nunha foto  -->
+					</div>
+					<div class="projects-row-detail-2">
+						<img src="img/esculturas.png" alt=" Esculturas recicladas" /> </a>
+					</div>
+					<div class="projects-row-detail-3">
+						<img src="img/fotos da natureza.png" alt="Mural de fotos" />
+					</div>
+				</div>
+			</div>
+	</section>
+
+		<section id="about">
+			<div class="container">
+				<h2>Acerca de min</h2> 
+				<div class="about-row">
+					<div class="about-row-experience">
+						<h4>Experiencia</h4>
+						<p class="large">Licenciatura en Matemáticas</p>
+						<p class="large">Máster Oficial de Estadística  </p>
+						<p class="large">Licenciatura en Negocios Digitales</p>
+						<p class="large">Ciclo Formativo de Grado Superior en  <br> Acondicionamiento Físico</p>
+					</div>
+					<div class="about-row-me">
+						<h4>Acerca de min</h4>
+						<p>
+							Paciente e tranquilo, aínda que con ganas de aprender cousas novas e útiles para a miña vida. Apaixonado polos deportes de pelota (sobre todo o baloncesto) e o ximnasio. Coñecemento do mundo das zapatillas e da roupa. Con ideas e visións diferentes ás demais, pero aberto a novas experiencias, porque só se vive unha vez.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="container">
+				<h2>Contacto</h2>
+				<div class="contact-row">
+					<div class="contact-row-icon">
+						<img src="img/icon-address.png" alt="" />
+						<p>Praza de Pontevedra</p>
+					</div>
+					<div class="contact-row-icon">
+						<img src="img/icon-mail.png" alt="" />
+						<p> imq1108@gmail.com </p>  
+					</div>
+					<div class="contact-row-icon">
+						<img src="img/icon-phone.png" alt="" />
+						<p>666-666-666</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="mainfooter">
+			<div class="social-container">
+				<ul class="social-icons">
+					<li><a href="https://www.instagram.com/ismartinezz_/?hl=es"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://twitter.com/elonmusk"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://es.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://www.youtube.com/channel/UC2dDBKXq0I673nT4FUuC02g"><i class="fa fa-youtube"></i></a></li>
+				</ul> 
+			</div>
+		</footer>
+	</body>
+</html>
